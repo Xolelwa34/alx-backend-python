@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
-"""
-Define variables specified values
-"""
 
+'''
+Define variables
+'''
 
-a: int = 1
-pi: float = 3.14
-i_understand_annotations: bool = True
-school: str = "Holberton"
+a: int
+a = 1
+
+pi: float
+pi = 3.14
+
+i_understand_annotations: bool
+i_understand_annotations = True
+
+school: str
+school = "Holberton"
