@@ -4,8 +4,11 @@ Basic annotatis floor
 """
 
 
+import math
+
+
 def floor(n: float) -> int:
-    """
-    function floor which takes a float n as argument and returns the floor of the float
-    """
-    return int(n)
+    '''
+    Finds the floor of a float
+    '''
+    return math.floor(n)

@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""
-Returns the string representation of the float
-"""
+
+'''
+Basic annotations - to string
+'''
 
 
 def to_str(n: float) -> str:
-    """ 
-    function that cast to float to string
-    """
+    '''
+    Returns string representation of float
+    '''
     return str(n)
